@@ -76,11 +76,11 @@
             fill:none;stroke:rgb(248,0,0);stroke-width:12px;
             stroke-linecap: round;
         }
-        #redwire.V {
+        #redwire.A {
             transform: translate(165px);
             d: path("M709.975,819.506C709.975,968.768 821.66,974.766 877.842,974.015C934.025,973.264 1045.93,971.005 1045.93,815");
         }
-        #redwire.A {
+        #redwire.V {
             transform: translate(336px);
             d: path("M709.975,819.506C709.975,968.768 764.342,974.766 791.691,974.015C819.04,973.264 874.069,971.005 874.069,815")
         }
