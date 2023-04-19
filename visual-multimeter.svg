@@ -4,6 +4,7 @@
 
     <style id="css">
         @import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+
         @font-face {
             font-family: "DSEG7 Classic Mini";
             src: url('https://raw.githubusercontent.com/jango-fx/DSEG/release/DSEG14-Classic-MINI/DSEG14ClassicMini-Regular.woff2');
@@ -88,12 +89,41 @@
         }
 
         #redwire.A {
-            d: path("M1220,819.506C1220,968.768 1098.34,974.766 1042.16,974.015C985.975,973.264 874.069,971.005 874.069,815");
+            d: path("M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815");
         }
 
         #redwire.V {
-            d: path("M1220,819.506C1220,968.768 1155.66,974.766 1128.31,974.015C1100.96,973.264 1045.93,971.005 1045.93,815")
+            d: path("M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815");
         }
+
+        .circuit-wire {
+            fill: none;
+            stroke: rgb(242, 175, 13);
+            stroke-width: 5px;
+            stroke-linecap: round;
+        }
+
+        #circuit.V #circuit-wire-gnd {
+            d: path("M952.998,115L435.002,115");
+        }
+
+        #circuit.V #circuit-wire-vcc {
+            d: path("M1535.46,115L968.998,115");
+        }
+
+        #circuit.V #circuit-led {
+            transform: translate(490px, 0px);
+        }
+
+        #circuit.A #circuit-wire-gnd {
+            d: path("M718.998,115L481,115");
+        }
+
+        #circuit.A #circuit-wire-vcc {
+            d: path("M1535.46,115L1200,115");
+        }
+
+        #circuit.A #circuit-led {}
     </style>
     <g class="shadow-body">
         <path d="M1150,275C1150,258.443 1136.56,245 1120,245L799.998,245C783.44,245 769.998,258.443 769.998,275L769.998,855C769.998,871.557 783.44,885 799.998,885L1120,885C1136.56,885 1150,871.557 1150,855L1150,275Z" style="fill:rgb(255,159,76);" />
@@ -111,21 +141,21 @@
             <tspan dx="-0.9em">|-</tspan>
         </text>
     </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
         <text x="1092.03px" y="614px">A</text>
         <text x="1090.71px" y="586.951px">⎓</text>
     </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
         <text x="1042.16px" y="531.53px">A</text>
         <text x="1042.16px" y="504.481px">~</text>
     </g>
     <text x="874.55px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">A</text>
-    <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V';" x="949.088px" y="495.085px">Ω</text>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V';">
+    <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';" x="949.088px" y="495.085px">Ω</text>
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
         <text x="850.974px" y="531.53px">V</text>
         <text x="848.745px" y="504.481px">⎓</text>
     </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
         <text x="803.37px" y="614px">V</text>
         <text x="803.37px" y="586.951px">~</text>
     </g>
@@ -156,19 +186,64 @@
     </g>
 
     <g id="redprobe" class="shadow-probes">
-        <path d="M1236.63,820L1203.37,820L1201.52,438.405L1187.5,438.405L1187.5,424.405L1201.52,424.405L1205.74,360.19L1234.26,360.19L1238.48,424.405L1252.5,424.405L1252.5,438.405L1238.48,438.405L1236.63,820Z" style="fill:rgb(248,0,0);" />
-        <path d="M1225.55,360.19L1214.45,360.19L1214.45,288.521L1216.04,285.3L1214.45,282.884L1214.45,278.858L1220,270L1225.55,278.858L1225.55,282.884L1223.96,285.3L1225.55,288.521L1225.55,360.19Z" style="fill:rgb(162,162,162);" />
+        <path d="M1358.42,641.954L1326.28,650.564L1225.74,282.45L1212.19,286.079L1208.57,272.556L1222.11,268.927L1209.57,205.807L1237.12,198.427L1257.81,259.362L1271.36,255.732L1274.98,269.255L1261.43,272.884L1358.42,641.954Z" style="fill:rgb(248,0,0);" />
+        <path d="M1228.7,200.682L1217.99,203.552L1199.44,134.325L1200.13,130.804L1197.98,128.88L1196.94,124.991L1200,115L1207.65,122.121L1208.69,126.01L1207.79,128.754L1210.15,131.455L1228.7,200.682Z" style="fill:rgb(162,162,162);" />
+        <!-- <path d="M1236.63,820L1203.37,820L1201.52,438.405L1187.5,438.405L1187.5,424.405L1201.52,424.405L1205.74,360.19L1234.26,360.19L1238.48,424.405L1252.5,424.405L1252.5,438.405L1238.48,438.405L1236.63,820Z" style="fill:rgb(248,0,0);" /> -->
+        <!-- <path d="M1225.55,360.19L1214.45,360.19L1214.45,288.521L1216.04,285.3L1214.45,282.884L1214.45,278.858L1220,270L1225.55,278.858L1225.55,282.884L1223.96,285.3L1225.55,288.521L1225.55,360.19Z" style="fill:rgb(162,162,162);" /> -->
     </g>
     <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
     <g id="blackprobe" class="shadow-probes">
-        <path d="M716.634,820L683.366,820L681.522,438.405L667.5,438.405L667.5,424.405L681.522,424.405L685.743,360.19L714.257,360.19L718.478,424.405L732.5,424.405L732.5,438.405L718.478,438.405L716.634,820Z" style="fill:rgb(19,19,19);" />
-        <path d="M705.545,360.19L694.455,360.19L694.455,288.521L696.04,285.3L694.455,282.884L694.455,278.858L700,270L705.545,278.858L705.545,282.884L703.96,285.3L705.545,288.521L705.545,360.19Z" style="fill:rgb(162,162,162);" />
+        <path d="M593.716,650.564L561.583,641.954L658.565,272.884L645.021,269.255L648.644,255.732L662.188,259.362L682.885,198.427L710.429,205.807L697.886,268.927L711.43,272.556L707.806,286.079L694.262,282.45L593.716,650.564Z" style="fill:rgb(19,19,19);" />
+        <path d="M702.013,203.552L691.301,200.682L709.851,131.455L712.215,128.754L711.31,126.01L712.352,122.121L720,115L723.063,124.991L722.021,128.88L719.865,130.804L720.562,134.325L702.013,203.552Z" style="fill:rgb(162,162,162);" />
+        <!-- <path d="M716.634,820L683.366,820L681.522,438.405L667.5,438.405L667.5,424.405L681.522,424.405L685.743,360.19L714.257,360.19L718.478,424.405L732.5,424.405L732.5,438.405L718.478,438.405L716.634,820Z" style="fill:rgb(19,19,19);" /> -->
+        <!-- <path d="M705.545,360.19L694.455,360.19L694.455,288.521L696.04,285.3L694.455,282.884L694.455,278.858L700,270L705.545,278.858L705.545,282.884L703.96,285.3L705.545,288.521L705.545,360.19Z" style="fill:rgb(162,162,162);" /> -->
     </g>
     <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
 
-    <path d="M700,815C700,964.262 764.305,974.815 820.488,974.064C876.67,973.313 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" />
-    <path id="redwire" class="V" />
-    <!-- <path d="M1220,819.506C1220,968.768 1155.66,974.766 1128.31,974.015C1100.96,973.264 1045.93,971.005 1045.93,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;"/> -->
-    <!-- <path d="M1220,819.506C1220,968.768 1098.34,974.766 1042.16,974.015C985.975,973.264 874.069,971.005 874.069,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;"/> -->
 
+    <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" />
+    <!-- <path d="M700,815C700,964.262 764.305,974.815 820.488,974.064C876.67,973.313 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" /> -->
+    <path id="redwire" class="V" />
+    <!-- <path id="redwire.V" d="M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
+    <!-- <path id="redwire.A" d="M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
+
+    <g id="circuit" class="V">
+        <use id="circuit-led" href="#led" class="A" x="0" />
+        <path id="circuit-wire-vcc" class="circuit-wire" />
+        <path id="circuit-wire-gnd" class="circuit-wire" />
+
+        <path id="wire-GND" d="M461,115L381,115" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
+        <path id="circuit-symbol-VCC" d="M1520.46,130L1535.46,115L1520.46,100" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:10;" />
+        <g id="circuit-symbol-GND">
+            <path d="M381,97L381,135" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
+            <path d="M371.323,104.094L371.323,130.094" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
+            <path d="M361.214,109.094L361.214,125.094" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
+        </g>
+        <g id="labels-circuit">
+            <text x="349.194px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">GND</text>
+            <text x="1517.39px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
+        </g>
+    </g>
+
+
+    <defs>
+        <g id="led">
+            <rect id="connector0pin1" serif:id="connector0pin" x="460.103" y="76.487" width="4.657" height="1.558" style="fill:none;" />
+            <rect id="connector1pin1" serif:id="connector1pin" x="475.685" y="76.487" width="4.662" height="1.558" style="fill:none;" />
+            <path id="connector0leg1" serif:id="connector0leg" d="M462.431,84.68L462.431,111.983" style="fill:none;fill-rule:nonzero;stroke:rgb(140,140,140);stroke-width:4.76px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-linecap: round;" />
+            <path id="connector1leg1" serif:id="connector1leg" d="M478.017,84.68L478.017,111.983" style="fill:none;fill-rule:nonzero;stroke:rgb(140,140,140);stroke-width:4.76px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-linecap: round;" />
+            <rect x="460.103" y="63.413" width="4.656" height="21.267" style="fill:rgb(140,140,140);" />
+            <path d="M480.345,84.68C480.345,82.14 478.041,80.13 475.827,78.206C474.926,77.411 473.231,76.038 473.231,75.122L473.231,63.283L468.553,63.283L468.553,75.792C468.553,78.083 470.604,79.858 472.765,81.74C473.726,82.553 475.683,84.445 475.683,85.57" style="fill:rgb(140,140,140);fill-rule:nonzero;" />
+            <g id="g121" serif:id="g12">
+                <path id="color_path141" serif:id="color_path14" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.3;fill-rule:nonzero;" />
+                <path id="path161" serif:id="path16" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,230,230);fill-opacity:0.5;fill-rule:nonzero;" />
+                <path id="path181" serif:id="path18" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(209,209,209);fill-opacity:0.9;fill-rule:nonzero;" />
+                <path id="color_path201" serif:id="color_path20" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.7;fill-rule:nonzero;" />
+                <path id="color_path221" serif:id="color_path22" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,63.05C455.825,66.621 461.501,69.006 467.974,69.006C477.971,69.006 486.084,63.341 486.084,56.328C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.25;fill-rule:nonzero;" />
+                <ellipse id="ellipse241" serif:id="ellipse24" cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,230,230);fill-opacity:0.25;" />
+                <ellipse id="color_ellipse261" serif:id="color_ellipse26" cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,0,0);fill-opacity:0.25;" />
+                <path id="color_path321" serif:id="color_path32" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.65;fill-rule:nonzero;" />
+            </g>
+        </g>
+    </defs>
 </svg>
