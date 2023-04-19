@@ -108,7 +108,7 @@
         <text x="1045.5px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">Ω</text>
         <text x="1080px" y="785px" text-anchor="middle" style="font-size:20px; dominant-baseline: central;">
             <tspan>→</tspan>
-            <tspan dx="-0.3em">|-</tspan>
+            <tspan dx="-0.9em">|-</tspan>
         </text>
     </g>
     <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A';">
@@ -159,12 +159,12 @@
         <path d="M1236.63,820L1203.37,820L1201.52,438.405L1187.5,438.405L1187.5,424.405L1201.52,424.405L1205.74,360.19L1234.26,360.19L1238.48,424.405L1252.5,424.405L1252.5,438.405L1238.48,438.405L1236.63,820Z" style="fill:rgb(248,0,0);" />
         <path d="M1225.55,360.19L1214.45,360.19L1214.45,288.521L1216.04,285.3L1214.45,282.884L1214.45,278.858L1220,270L1225.55,278.858L1225.55,282.884L1223.96,285.3L1225.55,288.521L1225.55,360.19Z" style="fill:rgb(162,162,162);" />
     </g>
-    <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" />
+    <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
     <g id="blackprobe" class="shadow-probes">
         <path d="M716.634,820L683.366,820L681.522,438.405L667.5,438.405L667.5,424.405L681.522,424.405L685.743,360.19L714.257,360.19L718.478,424.405L732.5,424.405L732.5,438.405L718.478,438.405L716.634,820Z" style="fill:rgb(19,19,19);" />
         <path d="M705.545,360.19L694.455,360.19L694.455,288.521L696.04,285.3L694.455,282.884L694.455,278.858L700,270L705.545,278.858L705.545,282.884L703.96,285.3L705.545,288.521L705.545,360.19Z" style="fill:rgb(162,162,162);" />
     </g>
-    <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" />
+    <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
 
     <path d="M700,815C700,964.262 764.305,974.815 820.488,974.064C876.67,973.313 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" />
     <path id="redwire" class="V" />
