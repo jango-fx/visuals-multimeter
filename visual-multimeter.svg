@@ -87,43 +87,42 @@
             stroke-width: 12px;
             stroke-linecap: round;
         }
-
         #redwire.A {
             d: path("M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815");
         }
-
         #redwire.V {
             d: path("M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815");
         }
 
         .circuit-wire {
+            transition: 1.0s;
             fill: none;
             stroke: rgb(242, 175, 13);
             stroke-width: 5px;
             stroke-linecap: round;
         }
 
-        #circuit.V #circuit-wire-gnd {
-            d: path("M952.998,115L435.002,115");
-        }
-
         #circuit.V #circuit-wire-vcc {
             d: path("M1535.46,115L968.998,115");
         }
-
-        #circuit.V #circuit-led {
-            transform: translate(490px, 0px);
+        #circuit.A #circuit-wire-vcc {
+            d: path("M1535.46,115L1200,115");
         }
 
         #circuit.A #circuit-wire-gnd {
             d: path("M718.998,115L481,115");
         }
-
-        #circuit.A #circuit-wire-vcc {
-            d: path("M1535.46,115L1200,115");
+        #circuit.V #circuit-wire-gnd {
+            d: path("M952.998,115L435.002,115");
         }
 
+        #circuit-led {
+            transition: 1.0s;
+        }
         #circuit.A #circuit-led {}
+        #circuit.V #circuit-led {
+            transform: translate(490px, 0px);
+        }
     </style>
     <g class="shadow-body">
         <path d="M1150,275C1150,258.443 1136.56,245 1120,245L799.998,245C783.44,245 769.998,258.443 769.998,275L769.998,855C769.998,871.557 783.44,885 799.998,885L1120,885C1136.56,885 1150,871.557 1150,855L1150,275Z" style="fill:rgb(255,159,76);" />
@@ -213,16 +212,16 @@
         <path id="circuit-wire-gnd" class="circuit-wire" />
 
         <path id="wire-GND" d="M461,115L381,115" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
-        <path id="circuit-symbol-VCC" d="M1520.46,130L1535.46,115L1520.46,100" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:10;" />
-        <g id="circuit-symbol-GND">
+        <!-- <path id="circuit-symbol-VCC" d="M1520.46,130L1535.46,115L1520.46,100" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;stroke-linejoin:miter;stroke-miterlimit:10;" /> -->
+        <!-- <g id="circuit-symbol-GND">
             <path d="M381,97L381,135" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
             <path d="M371.323,104.094L371.323,130.094" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
             <path d="M361.214,109.094L361.214,125.094" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
-        </g>
-        <g id="labels-circuit">
-            <text x="349.194px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">GND</text>
-            <text x="1517.39px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
-        </g>
+        </g> -->
+        <!-- <g id="labels-circuit">
+            <text id="gnd" x="349.194px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">GND</text>
+            <text id="vcc" x="1517.39px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
+        </g> -->
     </g>
 
 
@@ -234,7 +233,7 @@
             <path id="connector1leg1" d="M478.017,84.68L478.017,111.983" style="fill:none;fill-rule:nonzero;stroke:rgb(140,140,140);stroke-width:4.76px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-linecap: round;" />
             <rect x="460.103" y="63.413" width="4.656" height="21.267" style="fill:rgb(140,140,140);" />
             <path d="M480.345,84.68C480.345,82.14 478.041,80.13 475.827,78.206C474.926,77.411 473.231,76.038 473.231,75.122L473.231,63.283L468.553,63.283L468.553,75.792C468.553,78.083 470.604,79.858 472.765,81.74C473.726,82.553 475.683,84.445 475.683,85.57" style="fill:rgb(140,140,140);fill-rule:nonzero;" />
-            <g id="g121">
+            <g>
                 <path id="color_path141" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.3;fill-rule:nonzero;" />
                 <path id="path161" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,230,230);fill-opacity:0.5;fill-rule:nonzero;" />
                 <path id="path181" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(209,209,209);fill-opacity:0.9;fill-rule:nonzero;" />
