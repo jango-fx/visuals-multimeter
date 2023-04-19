@@ -95,14 +95,6 @@
             d: path("M1220,819.506C1220,968.768 1155.66,974.766 1128.31,974.015C1100.96,973.264 1045.93,971.005 1045.93,815")
         }
     </style>
-    <script>
-        //if not IE, just insert the rule body[dir="rtl"] svg > text ...
-        console.log("test");
-        if(!('ActiveXObject' in window)){
-            console.log("checked");
-            //document.getElementById("css").innerHTML = document.getElementById("css").innerHTML+"body[dir='rtl'] svg > text { text-anchor: start;}";    
-        }
-    </script>
     <g class="shadow-body">
         <path d="M1150,275C1150,258.443 1136.56,245 1120,245L799.998,245C783.44,245 769.998,258.443 769.998,275L769.998,855C769.998,871.557 783.44,885 799.998,885L1120,885C1136.56,885 1150,871.557 1150,855L1150,275Z" style="fill:rgb(255,159,76);" />
         <path d="M1131.69,285C1131.69,273.962 1122.73,265 1111.69,265L811.691,265C800.653,265 791.691,273.962 791.691,285L791.691,845C791.691,856.038 800.653,865 811.691,865L1111.69,865C1122.73,865 1131.69,856.038 1131.69,845L1131.69,285Z" style="fill:rgb(75,75,75);" />
