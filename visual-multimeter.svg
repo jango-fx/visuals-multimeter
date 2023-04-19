@@ -38,8 +38,8 @@
             /* Similar syntax to box-shadow */
         }
         #redprobe.shadow-probes {
-            -webkit-filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
-            filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
+            -webkit-filter: drop-shadow(15px 10px 0px rgba(0, 0, 0, .5));
+            filter: drop-shadow(15px 10px 0px rgba(0, 0, 0, .5));
             /* Similar syntax to box-shadow */
         }
 
