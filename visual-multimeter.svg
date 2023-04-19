@@ -69,6 +69,16 @@
             transform: translate(959.998px, 633.733px) rotate(0deg);
         }
 
+        #test{
+            transform: translate(1100px, 410px);
+            -ms-transform: translate(1100px, 410px);
+            /* IE 9 */
+            -webkit-transform: translate(1100px, 410px);
+            /* Safari and Chrome */
+            -o-transform: translate(1100px, 410px);
+            /* Opera */
+            -moz-transform: translate(1100px, 410px);
+        }
         .display {
             font-family: 'DSEG7 Classic Mini', sans-serif;
             font-weight: 100;
@@ -135,9 +145,7 @@
         <path d="M1131.69,285C1131.69,273.962 1122.73,265 1111.69,265L811.691,265C800.653,265 791.691,273.962 791.691,285L791.691,845C791.691,856.038 800.653,865 811.691,865L1111.69,865C1122.73,865 1131.69,856.038 1131.69,845L1131.69,285Z" style="fill:rgb(75,75,75);" />
         <path id="display" d="M1110,295C1110,289.481 1105.52,285 1100,285L819.998,285C814.479,285 809.998,289.481 809.998,295L809.998,425C809.998,430.519 814.479,435 819.998,435L1100,435C1105.52,435 1110,430.519 1110,425L1110,295Z" style="fill:rgb(215,247,255);" />
     </g>
-    <text class="display">
-        0.00
-    </text>
+    <text class="display">0.00</text>
     <g>
         <text x="1020px" y="785px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">V</text>
         <text x="1045.5px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">Ω</text>
