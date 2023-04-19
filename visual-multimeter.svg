@@ -14,17 +14,13 @@
             font-family: "7-Segment";
             src: url(data:application/octet-stream;base64,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);
         } */
-        /* @font-face {
-            font-family: "DSEG7 Classic Mini";
-            font-weight: 100 400;
-            src: url(data:application/octet-stream;base64,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);
-        } */
 
         svg {
-            font-family: 'FiraCode-Medium', 'Fira Code';
-            font-weight: 500;
+            font-family: 'Fira Code';
+            font-weight: 900;
             font-size: 36px;
-            stroke-linecap:round;
+            stroke-linecap: round;
+            text-anchor: middle;
         }
 
         .shadow-body {
@@ -35,65 +31,34 @@
         #blackprobe.shadow-probes {
             -webkit-filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
             filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
-            /* Similar syntax to box-shadow */
         }
+
         #redprobe.shadow-probes {
             -webkit-filter: drop-shadow(15px 10px 0px rgba(0, 0, 0, .5));
             filter: drop-shadow(15px 10px 0px rgba(0, 0, 0, .5));
-            /* Similar syntax to box-shadow */
         }
 
         .shadow-probes-guard {
             -webkit-filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, .5));
             filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, .5));
-            /* Similar syntax to box-shadow */
         }
 
-        .rotuac {
-            transform: translate(959.998px, 633.733px) rotate(-76deg);
-        }
+        .rotuac { transform: translate(959px, 633px) rotate(-76deg); }
+        .rotudc { transform: translate(959px, 633px) rotate(-40deg); }
+        .rotiac { transform: translate(959px, 633px) rotate(42deg); }
+        .rotidc { transform: translate(959px, 633px) rotate(78deg); }
+        .rotr { transform: translate(959px, 633px) rotate(0deg); }
 
-        .rotudc {
-            transform: translate(959.998px, 633.733px) rotate(-40deg);
-        }
-
-        .rotiac {
-            transform: translate(959.998px, 633.733px) rotate(42deg);
-        }
-
-        .rotidc {
-            transform: translate(959.998px, 633.733px) rotate(78deg);
-        }
-
-        .rotr {
-            transform: translate(959.998px, 633.733px) rotate(0deg);
-        }
-
-        #test{
-            transform: translate(1100px, 410px);
-            -ms-transform: translate(1100px, 410px);
-            /* IE 9 */
-            -webkit-transform: translate(1100px, 410px);
-            /* Safari and Chrome */
-            -o-transform: translate(1100px, 410px);
-            /* Opera */
-            -moz-transform: translate(1100px, 410px);
-        }
-        .display {
+        #display-text {
             font-family: 'DSEG7 Classic Mini', sans-serif;
             font-weight: 100;
             font-size: 100px;
             text-anchor: end;
             transform: translate(1100px, 410px);
-            -ms-transform: translate(1100px, 410px);
-            /* IE 9 */
-            -webkit-transform: translate(1100px, 410px);
-            /* Safari and Chrome */
-            -o-transform: translate(1100px, 410px);
-            /* Opera */
-            -moz-transform: translate(1100px, 410px);
-            /* Firefox */
-            /* x="850px" y="410px"  */
+            -ms-transform: translate(1100px, 410px); /* IE 9 */
+            -webkit-transform: translate(1100px, 410px); /* Safari and Chrome */
+            -o-transform: translate(1100px, 410px); /* Opera */
+            -moz-transform: translate(1100px, 410px); /* Firefox */
         }
 
         #redwire {
@@ -103,12 +68,8 @@
             stroke-width: 12px;
             stroke-linecap: round;
         }
-        #redwire.A {
-            d: path("M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815");
-        }
-        #redwire.V {
-            d: path("M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815");
-        }
+        #redwire.A { d: path("M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815"); }
+        #redwire.V { d: path("M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815");  }
 
         .circuit-wire {
             transition: 1.0s;
@@ -117,67 +78,60 @@
             stroke-width: 5px;
             stroke-linecap: round;
         }
+        #circuit.V #circuit-wire-vcc { d: path("M1535.46,115L968.998,115"); }
+        #circuit.A #circuit-wire-vcc { d: path("M1535.46,115L1200,115"); }
 
-        #circuit.V #circuit-wire-vcc {
-            d: path("M1535.46,115L968.998,115");
-        }
-        #circuit.A #circuit-wire-vcc {
-            d: path("M1535.46,115L1200,115");
-        }
+        #circuit.A #circuit-wire-gnd { d: path("M718.998,115L481,115"); }
+        #circuit.V #circuit-wire-gnd { d: path("M952.998,115L435.002,115"); }
 
-        #circuit.A #circuit-wire-gnd {
-            d: path("M718.998,115L481,115");
-        }
-        #circuit.V #circuit-wire-gnd {
-            d: path("M952.998,115L435.002,115");
-        }
-
-        #circuit-led {
-            transition: 1.0s;
-        }
+        #circuit-led { transition: 1.0s; }
         #circuit.A #circuit-led {}
-        #circuit.V #circuit-led {
-            transform: translate(490px, 0px);
-        }
+        #circuit.V #circuit-led { transform: translate(490px, 0px); }
     </style>
-    <g class="shadow-body">
+
+    <g class="shadow-body" >
         <path d="M1150,275C1150,258.443 1136.56,245 1120,245L799.998,245C783.44,245 769.998,258.443 769.998,275L769.998,855C769.998,871.557 783.44,885 799.998,885L1120,885C1136.56,885 1150,871.557 1150,855L1150,275Z" style="fill:rgb(255,159,76);" />
         <path d="M1131.69,285C1131.69,273.962 1122.73,265 1111.69,265L811.691,265C800.653,265 791.691,273.962 791.691,285L791.691,845C791.691,856.038 800.653,865 811.691,865L1111.69,865C1122.73,865 1131.69,856.038 1131.69,845L1131.69,285Z" style="fill:rgb(75,75,75);" />
-        <path id="display" d="M1110,295C1110,289.481 1105.52,285 1100,285L819.998,285C814.479,285 809.998,289.481 809.998,295L809.998,425C809.998,430.519 814.479,435 819.998,435L1100,435C1105.52,435 1110,430.519 1110,425L1110,295Z" style="fill:rgb(215,247,255);" />
+        <g id="display" >
+            <path d="M1110,295C1110,289.481 1105.52,285 1100,285L819.998,285C814.479,285 809.998,289.481 809.998,295L809.998,425C809.998,430.519 814.479,435 819.998,435L1100,435C1105.52,435 1110,430.519 1110,425L1110,295Z" style="fill:rgb(215,247,255);" />
+            <text id="display-text">0.00</text>
+        </g>
     </g>
-    <text class="display">0.00</text>
-    <g>
-        <text x="1020px" y="785px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">V</text>
-        <text x="1045.5px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">Ω</text>
-        <text x="1080px" y="785px" text-anchor="middle" style="font-size:20px; dominant-baseline: central;">
-            <tspan>→</tspan>
-            <tspan dx="-0.9em">|-</tspan>
-        </text>
-    </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
-        <text x="1092.03px" y="614px">A</text>
-        <text x="1090.71px" y="586.951px">⎓</text>
-    </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
-        <text x="1042.16px" y="531.53px">A</text>
-        <text x="1042.16px" y="504.481px">~</text>
-    </g>
-    <text x="874.55px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">A</text>
-    <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';" x="949.088px" y="495.085px">Ω</text>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
-        <text x="850.974px" y="531.53px">V</text>
-        <text x="848.745px" y="504.481px">⎓</text>
-    </g>
-    <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
-        <text x="803.37px" y="614px">V</text>
-        <text x="803.37px" y="586.951px">~</text>
+
+    <g id="knob-labels">
+        <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
+            <text x="1092px" y="614px">A</text>
+            <text x="1090px" y="586px">⎓</text>
+        </g>
+        <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
+            <text x="1042px" y="531px">A</text>
+            <text x="1042px" y="504px">~</text>
+        </g>
+        <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';" x="949px" y="495px">Ω</text>
+        <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
+            <text x="850px" y="531px">V</text>
+            <text x="848px" y="504px">⎓</text>
+        </g>
+        <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
+            <text x="803px" y="614px">V</text>
+            <text x="803px" y="586px">~</text>
+        </g>
     </g>
     <g id="knob" class="rotr">
         <circle cx="0" cy="0" r="120" style="fill:none;stroke:rgb(5,5,5); stroke-width:8" />
         <circle cx="0" cy="0" r="120" style="fill:rgb(150,150,150);" />
         <path transform="translate(-959.998, -633.733)" d="M950,514.144C953.792,512.09 956.665,511.733 959.998,511.733C963.331,511.733 966.207,512.09 970,514.145C969.707,552.332 970,593.086 970,633.733C970,674.38 976.076,713.62 987.369,750.592C978.576,752.646 969.413,753.733 959.998,753.733C950.584,753.733 941.421,752.646 932.629,750.592C943.922,713.62 949.998,674.38 949.998,633.733C949.998,593.085 950.293,551.225 950,514.144Z" style="fill:rgb(102,102,102);" />
     </g>
-    <g>
+
+
+    <g id="sockets">
+        <g id="labels-sockets">
+            <text x="1020px" y="785px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">V</text>
+            <text x="1045.5px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">Ω</text>
+            <text x="1080px" y="785px" text-anchor="middle" style="font-size:20px; dominant-baseline: central;"><tspan>→</tspan><tspan dx="-0.3em">|-</tspan></text>
+            <text x="874px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">A</text>
+        </g>
+
         <g>
             <circle cx="960" cy="815" r="17.5" style="fill:rgb(19,19,19);" />
             <path d="M960,793.5C971.866,793.5 981.5,803.134 981.5,815C981.5,826.866 971.866,836.5 960,836.5C948.134,836.5 938.5,826.866 938.5,815C938.5,803.134 948.134,793.5 960,793.5ZM960,797.5C950.341,797.5 942.5,805.342 942.5,815C942.5,824.659 950.341,832.5 960,832.5C969.659,832.5 977.5,824.659 977.5,815C977.5,805.342 969.659,797.5 960,797.5Z" style="fill:rgb(47,47,47);" />
@@ -201,24 +155,15 @@
     <g id="redprobe" class="shadow-probes">
         <path d="M1358.42,641.954L1326.28,650.564L1225.74,282.45L1212.19,286.079L1208.57,272.556L1222.11,268.927L1209.57,205.807L1237.12,198.427L1257.81,259.362L1271.36,255.732L1274.98,269.255L1261.43,272.884L1358.42,641.954Z" style="fill:rgb(248,0,0);" />
         <path d="M1228.7,200.682L1217.99,203.552L1199.44,134.325L1200.13,130.804L1197.98,128.88L1196.94,124.991L1200,115L1207.65,122.121L1208.69,126.01L1207.79,128.754L1210.15,131.455L1228.7,200.682Z" style="fill:rgb(162,162,162);" />
-        <!-- <path d="M1236.63,820L1203.37,820L1201.52,438.405L1187.5,438.405L1187.5,424.405L1201.52,424.405L1205.74,360.19L1234.26,360.19L1238.48,424.405L1252.5,424.405L1252.5,438.405L1238.48,438.405L1236.63,820Z" style="fill:rgb(248,0,0);" /> -->
-        <!-- <path d="M1225.55,360.19L1214.45,360.19L1214.45,288.521L1216.04,285.3L1214.45,282.884L1214.45,278.858L1220,270L1225.55,278.858L1225.55,282.884L1223.96,285.3L1225.55,288.521L1225.55,360.19Z" style="fill:rgb(162,162,162);" /> -->
         <path id="redwire" class="V" />
     </g>
     <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
     <g id="blackprobe" class="shadow-probes">
         <path d="M593.716,650.564L561.583,641.954L658.565,272.884L645.021,269.255L648.644,255.732L662.188,259.362L682.885,198.427L710.429,205.807L697.886,268.927L711.43,272.556L707.806,286.079L694.262,282.45L593.716,650.564Z" style="fill:rgb(19,19,19);" />
         <path d="M702.013,203.552L691.301,200.682L709.851,131.455L712.215,128.754L711.31,126.01L712.352,122.121L720,115L723.063,124.991L722.021,128.88L719.865,130.804L720.562,134.325L702.013,203.552Z" style="fill:rgb(162,162,162);" />
-        <!-- <path d="M716.634,820L683.366,820L681.522,438.405L667.5,438.405L667.5,424.405L681.522,424.405L685.743,360.19L714.257,360.19L718.478,424.405L732.5,424.405L732.5,438.405L718.478,438.405L716.634,820Z" style="fill:rgb(19,19,19);" /> -->
-        <!-- <path d="M705.545,360.19L694.455,360.19L694.455,288.521L696.04,285.3L694.455,282.884L694.455,278.858L700,270L705.545,278.858L705.545,282.884L703.96,285.3L705.545,288.521L705.545,360.19Z" style="fill:rgb(162,162,162);" /> -->
-    <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;stroke-linecap:round;" />
+        <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;stroke-linecap:round;" />
     </g>
     <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
-
-
-    <!-- <path d="M700,815C700,964.262 764.305,974.815 820.488,974.064C876.67,973.313 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" /> -->
-    <!-- <path id="redwire.V" d="M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
-    <!-- <path id="redwire.A" d="M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
 
     <g id="circuit" class="V">
         <use id="circuit-led" href="#led" class="A" x="0" />
@@ -233,29 +178,33 @@
             <path d="M361.214,109.094L361.214,125.094" style="fill:none;stroke:rgb(242,175,13);stroke-width:5px;" />
         </g> -->
         <!-- <g id="labels-circuit">
-            <text id="gnd" x="349.194px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">GND</text>
-            <text id="vcc" x="1517.39px" y="73.457px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
+            <text id="gnd" x="349px" y="73px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">GND</text>
+            <text id="vcc" x="1517px" y="73px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
         </g> -->
     </g>
 
 
     <defs>
         <g id="led">
-            <rect id="connector0pin1" x="460.103" y="76.487" width="4.657" height="1.558" style="fill:none;" />
-            <rect id="connector1pin1" x="475.685" y="76.487" width="4.662" height="1.558" style="fill:none;" />
-            <path id="connector0leg1" d="M462.431,84.68L462.431,111.983" style="fill:none;fill-rule:nonzero;stroke:rgb(140,140,140);stroke-width:4.76px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-linecap: round;" />
-            <path id="connector1leg1" d="M478.017,84.68L478.017,111.983" style="fill:none;fill-rule:nonzero;stroke:rgb(140,140,140);stroke-width:4.76px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-linecap: round;" />
-            <rect x="460.103" y="63.413" width="4.656" height="21.267" style="fill:rgb(140,140,140);" />
-            <path d="M480.345,84.68C480.345,82.14 478.041,80.13 475.827,78.206C474.926,77.411 473.231,76.038 473.231,75.122L473.231,63.283L468.553,63.283L468.553,75.792C468.553,78.083 470.604,79.858 472.765,81.74C473.726,82.553 475.683,84.445 475.683,85.57" style="fill:rgb(140,140,140);fill-rule:nonzero;" />
+            <!-- <rect id="connector0pin1" x="460.103" y="76.487" width="4.657" height="1.558" style="fill:none;" /> -->
+            <!-- <rect id="connector1pin1" x="475.685" y="76.487" width="4.662" height="1.558" style="fill:none;" /> -->
+            <g id="leg-plus" >
+                <path d="M478.017,84.68L478.017,111.983" style="fill:none;stroke:rgb(140,140,140);stroke-width:5px;" />
+                <path d="M480.345,84.68C480.345,82.14 478.041,80.13 475.827,78.206C474.926,77.411 473.231,76.038 473.231,75.122L473.231,63.283L468.553,63.283L468.553,75.792C468.553,78.083 470.604,79.858 472.765,81.74C473.726,82.553 475.683,84.445 475.683,85.57" style="fill:rgb(140,140,140);" />    
+            </g>
+            <g id="leg-minus" >
+                <path d="M462.431,84.68L462.431,111.983" style="fill:none;stroke:rgb(140,140,140);stroke-width:5px;" />
+                <rect x="460.103" y="63.413" width="4.656" height="21.267" style="fill:rgb(140,140,140);" />
+            </g>
             <g>
-                <path id="color_path141" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.3;fill-rule:nonzero;" />
-                <path id="path161" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,230,230);fill-opacity:0.5;fill-rule:nonzero;" />
-                <path id="path181" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(209,209,209);fill-opacity:0.9;fill-rule:nonzero;" />
-                <path id="color_path201" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.7;fill-rule:nonzero;" />
-                <path id="color_path221" d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,63.05C455.825,66.621 461.501,69.006 467.974,69.006C477.971,69.006 486.084,63.341 486.084,56.328C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.25;fill-rule:nonzero;" />
-                <ellipse id="ellipse241" cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,230,230);fill-opacity:0.25;" />
-                <ellipse id="color_ellipse261" cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,0,0);fill-opacity:0.25;" />
-                <path id="color_path321" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.65;fill-rule:nonzero;" />
+                <path d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.3;" />
+                <path d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,230,230);fill-opacity:0.5;" />
+                <path d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(209,209,209);fill-opacity:0.9;" />
+                <path d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,66.348C455.825,69.923 461.501,72.305 467.974,72.305C477.971,72.305 486.084,66.64 486.084,59.626L486.084,56.329C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.7;" />
+                <path d="M483.307,49.609L483.307,56.329C483.307,62.257 476.456,67.074 467.974,67.074C459.507,67.074 452.635,62.272 452.635,56.329L452.635,63.05C455.825,66.621 461.501,69.006 467.974,69.006C477.971,69.006 486.084,63.341 486.084,56.328C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.25;" />
+                <ellipse cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,230,230);fill-opacity:0.25;" />
+                <ellipse cx="467.974" cy="56.329" rx="15.337" ry="10.736" style="fill:rgb(230,0,0);fill-opacity:0.25;" />
+                <path id="dome" d="M483.307,49.609L483.307,36.813C483.307,28.345 476.452,21.473 467.974,21.473C459.507,21.473 452.635,28.332 452.635,36.813L452.635,66.351C455.825,69.924 461.501,72.308 467.974,72.308C477.971,72.308 486.084,66.643 486.084,59.628L486.084,56.331C486.083,53.858 485.057,51.561 483.307,49.609Z" style="fill:rgb(230,0,0);fill-opacity:0.65;" />
             </g>
         </g>
     </defs>
