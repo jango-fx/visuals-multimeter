@@ -111,21 +111,21 @@
             <tspan dx="-0.3em">|-</tspan>
         </text>
     </g>
-    <g onclick="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A';">
         <text x="1092.03px" y="614px">A</text>
         <text x="1090.71px" y="586.951px">⎓</text>
     </g>
-    <g onclick="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A';">
         <text x="1042.16px" y="531.53px">A</text>
         <text x="1042.16px" y="504.481px">~</text>
     </g>
     <text x="874.55px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">A</text>
-    <text onclick="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V';" x="949.088px" y="495.085px">Ω</text>
-    <g onclick="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V';">
+    <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V';" x="949.088px" y="495.085px">Ω</text>
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V';">
         <text x="850.974px" y="531.53px">V</text>
         <text x="848.745px" y="504.481px">⎓</text>
     </g>
-    <g onclick="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V';">
+    <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V';">
         <text x="803.37px" y="614px">V</text>
         <text x="803.37px" y="586.951px">~</text>
     </g>
