@@ -24,6 +24,7 @@
             font-family: 'FiraCode-Medium', 'Fira Code';
             font-weight: 500;
             font-size: 36px;
+            stroke-linecap:round;
         }
 
         .shadow-body {
@@ -31,9 +32,14 @@
             filter: drop-shadow(30px 30px 0px rgba(0, 0, 0, .5));
         }
 
-        .shadow-probes {
-            -webkit-filter: drop-shadow(15px 15px 0px rgba(0, 0, 0, .5));
-            filter: drop-shadow(15px 15px 0px rgba(0, 0, 0, .5));
+        #blackprobe.shadow-probes {
+            -webkit-filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
+            filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
+            /* Similar syntax to box-shadow */
+        }
+        #redprobe.shadow-probes {
+            -webkit-filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
+            filter: drop-shadow(12px 10px 0px rgba(0, 0, 0, .5));
             /* Similar syntax to box-shadow */
         }
 
@@ -189,6 +195,7 @@
         <path d="M1228.7,200.682L1217.99,203.552L1199.44,134.325L1200.13,130.804L1197.98,128.88L1196.94,124.991L1200,115L1207.65,122.121L1208.69,126.01L1207.79,128.754L1210.15,131.455L1228.7,200.682Z" style="fill:rgb(162,162,162);" />
         <!-- <path d="M1236.63,820L1203.37,820L1201.52,438.405L1187.5,438.405L1187.5,424.405L1201.52,424.405L1205.74,360.19L1234.26,360.19L1238.48,424.405L1252.5,424.405L1252.5,438.405L1238.48,438.405L1236.63,820Z" style="fill:rgb(248,0,0);" /> -->
         <!-- <path d="M1225.55,360.19L1214.45,360.19L1214.45,288.521L1216.04,285.3L1214.45,282.884L1214.45,278.858L1220,270L1225.55,278.858L1225.55,282.884L1223.96,285.3L1225.55,288.521L1225.55,360.19Z" style="fill:rgb(162,162,162);" /> -->
+        <path id="redwire" class="V" />
     </g>
     <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
     <g id="blackprobe" class="shadow-probes">
@@ -196,13 +203,12 @@
         <path d="M702.013,203.552L691.301,200.682L709.851,131.455L712.215,128.754L711.31,126.01L712.352,122.121L720,115L723.063,124.991L722.021,128.88L719.865,130.804L720.562,134.325L702.013,203.552Z" style="fill:rgb(162,162,162);" />
         <!-- <path d="M716.634,820L683.366,820L681.522,438.405L667.5,438.405L667.5,424.405L681.522,424.405L685.743,360.19L714.257,360.19L718.478,424.405L732.5,424.405L732.5,438.405L718.478,438.405L716.634,820Z" style="fill:rgb(19,19,19);" /> -->
         <!-- <path d="M705.545,360.19L694.455,360.19L694.455,288.521L696.04,285.3L694.455,282.884L694.455,278.858L700,270L705.545,278.858L705.545,282.884L703.96,285.3L705.545,288.521L705.545,360.19Z" style="fill:rgb(162,162,162);" /> -->
+    <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;stroke-linecap:round;" />
     </g>
     <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
 
 
-    <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" />
     <!-- <path d="M700,815C700,964.262 764.305,974.815 820.488,974.064C876.67,973.313 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;" /> -->
-    <path id="redwire" class="V" />
     <!-- <path id="redwire.V" d="M1343.1,646.059C1417.1,944.321 1265.54,974.015 1208.57,974.015C1151.6,974.015 1045.93,971.005 1045.93,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
     <!-- <path id="redwire.A" d="M1343.1,646.059C1417.1,942.321 1176.34,974.766 1120.16,974.015C1063.97,973.264 874.069,971.005 874.069,815" style="fill:none;stroke:rgb(248,0,0);stroke-width:12px;" /> -->
 
