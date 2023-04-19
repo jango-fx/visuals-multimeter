@@ -3,7 +3,8 @@
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 
     <style id="css">
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+        /* @import url('https://unpkg.com/firacode@6.2.0/distr/fira_code.css'); */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.min.css');
 
         @font-face {
             font-family: "DSEG7 Classic Mini";
@@ -17,7 +18,7 @@
 
         svg {
             font-family: 'Fira Code';
-            font-weight: 900;
+            font-weight: 500;
             font-size: 36px;
             stroke-linecap: round;
             text-anchor: middle;
@@ -100,21 +101,21 @@
 
     <g id="knob-labels">
         <g onmouseover="document.getElementById('knob').className.baseVal='rotidc'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
-            <text x="1092px" y="614px">A</text>
-            <text x="1090px" y="586px">⎓</text>
+            <text x="1103px" y="585px">⎓</text>
+            <text x="1103px" y="615px">A</text>
         </g>
         <g onmouseover="document.getElementById('knob').className.baseVal='rotiac'; document.getElementById('redwire').className.baseVal='A'; document.getElementById('circuit').className.baseVal='A';">
-            <text x="1042px" y="531px">A</text>
-            <text x="1042px" y="504px">~</text>
+            <text x="1060px" y="500px">~</text>
+            <text x="1060px" y="530px">A</text>
         </g>
-        <text onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';" x="949px" y="495px">Ω</text>
+        <text x="959px" y="495px" onmouseover="document.getElementById('knob').className.baseVal='rotr'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">Ω</text>
         <g onmouseover="document.getElementById('knob').className.baseVal='rotudc'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
-            <text x="850px" y="531px">V</text>
-            <text x="848px" y="504px">⎓</text>
+            <text x="860px" y="500px">⎓</text>
+            <text x="860px" y="530px">V</text>
         </g>
         <g onmouseover="document.getElementById('knob').className.baseVal='rotuac'; document.getElementById('redwire').className.baseVal='V'; document.getElementById('circuit').className.baseVal='V';">
-            <text x="803px" y="614px">V</text>
-            <text x="803px" y="586px">~</text>
+            <text x="817px" y="585px">~</text>
+            <text x="817px" y="615px">V</text>
         </g>
     </g>
     <g id="knob" class="rotr">
@@ -125,11 +126,12 @@
 
 
     <g id="sockets">
-        <g id="labels-sockets">
-            <text x="1020px" y="785px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">V</text>
-            <text x="1045.5px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">Ω</text>
-            <text x="1080px" y="785px" text-anchor="middle" style="font-size:20px; dominant-baseline: central;"><tspan>→</tspan><tspan dx="-0.3em">|-</tspan></text>
-            <text x="874px" y="775px" text-anchor="middle" style="font-size:24px; dominant-baseline: central;">A</text>
+        <g id="socket-labels">
+            <text x="874px" y="785px" style="font-size:24px;">A</text>
+            
+            <text x="1020px" y="795px" style="font-size:24px;">V</text>
+            <text x="1045.5px" y="785px" style="font-size:24px;">Ω</text>
+            <text x="1080px" y="795px" style="font-size:20px;"><tspan dy="0em" font-size="26px" font-weight="400">→</tspan><tspan dx="-0.3em" dy="-0.12em">|-</tspan></text>
         </g>
 
         <g>
@@ -152,19 +154,6 @@
         </g>
     </g>
 
-    <g id="redprobe" class="shadow-probes">
-        <path d="M1358.42,641.954L1326.28,650.564L1225.74,282.45L1212.19,286.079L1208.57,272.556L1222.11,268.927L1209.57,205.807L1237.12,198.427L1257.81,259.362L1271.36,255.732L1274.98,269.255L1261.43,272.884L1358.42,641.954Z" style="fill:rgb(248,0,0);" />
-        <path d="M1228.7,200.682L1217.99,203.552L1199.44,134.325L1200.13,130.804L1197.98,128.88L1196.94,124.991L1200,115L1207.65,122.121L1208.69,126.01L1207.79,128.754L1210.15,131.455L1228.7,200.682Z" style="fill:rgb(162,162,162);" />
-        <path id="redwire" class="V" />
-    </g>
-    <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
-    <g id="blackprobe" class="shadow-probes">
-        <path d="M593.716,650.564L561.583,641.954L658.565,272.884L645.021,269.255L648.644,255.732L662.188,259.362L682.885,198.427L710.429,205.807L697.886,268.927L711.43,272.556L707.806,286.079L694.262,282.45L593.716,650.564Z" style="fill:rgb(19,19,19);" />
-        <path d="M702.013,203.552L691.301,200.682L709.851,131.455L712.215,128.754L711.31,126.01L712.352,122.121L720,115L723.063,124.991L722.021,128.88L719.865,130.804L720.562,134.325L702.013,203.552Z" style="fill:rgb(162,162,162);" />
-        <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;stroke-linecap:round;" />
-    </g>
-    <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
-
     <g id="circuit" class="V">
         <use id="circuit-led" href="#led" class="A" x="0" />
         <path id="circuit-wire-vcc" class="circuit-wire" />
@@ -182,6 +171,19 @@
             <text id="vcc" x="1517px" y="73px" style="font-family:'FiraCode-Medium', 'Fira Code';font-weight:500;font-size:24px;">V+</text>
         </g> -->
     </g>
+
+    <g id="redprobe" class="shadow-probes">
+        <path d="M1358.42,641.954L1326.28,650.564L1225.74,282.45L1212.19,286.079L1208.57,272.556L1222.11,268.927L1209.57,205.807L1237.12,198.427L1257.81,259.362L1271.36,255.732L1274.98,269.255L1261.43,272.884L1358.42,641.954Z" style="fill:rgb(248,0,0);" />
+        <path d="M1228.7,200.682L1217.99,203.552L1199.44,134.325L1200.13,130.804L1197.98,128.88L1196.94,124.991L1200,115L1207.65,122.121L1208.69,126.01L1207.79,128.754L1210.15,131.455L1228.7,200.682Z" style="fill:rgb(162,162,162);" />
+        <path id="redwire" class="V" />
+    </g>
+    <!-- <rect class="shadow-probes-guard" x="1187.5" y="424.405" width="65" height="14" style="fill:rgb(248,0,0);" /> -->
+    <g id="blackprobe" class="shadow-probes">
+        <path d="M593.716,650.564L561.583,641.954L658.565,272.884L645.021,269.255L648.644,255.732L662.188,259.362L682.885,198.427L710.429,205.807L697.886,268.927L711.43,272.556L707.806,286.079L694.262,282.45L593.716,650.564Z" style="fill:rgb(19,19,19);" />
+        <path d="M702.013,203.552L691.301,200.682L709.851,131.455L712.215,128.754L711.31,126.01L712.352,122.121L720,115L723.063,124.991L722.021,128.88L719.865,130.804L720.562,134.325L702.013,203.552Z" style="fill:rgb(162,162,162);" />
+        <path id="blackwire" d="M576.903,646.059C499.903,919.321 687.399,974.135 757.488,974.015C811.234,973.923 960,975.511 960,819.506" style="fill:none;stroke:rgb(19,19,19);stroke-width:12px;stroke-linecap:round;" />
+    </g>
+    <!-- <rect class="shadow-probes-guard" x="667.5" y="424.405" width="65" height="14" style="fill:rgb(19,19,19);" /> -->
 
 
     <defs>
