@@ -6,4 +6,4 @@
 [→ GitHub Repo](https://github.com/jango-fx/visuals-multimeter/)  
 
 ### Known Issues / TODOs
-- messed-up text positioning with Firefox (Chrome looks fine)
+- messed-up text positioning with Firefox (Chrome and Safari look fine)
