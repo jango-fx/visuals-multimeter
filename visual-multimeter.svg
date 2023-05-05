@@ -3,23 +3,27 @@
 
 <svg onload="init(evt)" width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 <script>
+            let isFix = false;
             function init(evt) {
                 // console.log("load");
                 let hash = window.location.hash;
                 if(hash) {
                     // console.log(hash);
-                    if(hash == '#rotidc') rotateKnob('rotidc', 'A');
-                    if(hash == '#rotiac') rotateKnob('rotiac', 'A');
-                    if(hash == '#rotr') rotateKnob('rotr', 'V');
-                    if(hash == '#rotudc') rotateKnob('rotudc', 'V');
-                    if(hash == '#rotuac') rotateKnob('rotuac', 'V');
+                    if(hash == '#rotidc') rotateKnob('rotidc', 'A', true);
+                    if(hash == '#rotiac') rotateKnob('rotiac', 'A', true);
+                    if(hash == '#rotr') rotateKnob('rotr', 'V', true);
+                    if(hash == '#rotudc') rotateKnob('rotudc', 'V', true);
+                    if(hash == '#rotuac') rotateKnob('rotuac', 'V', true);
                 }
           }
-          function rotateKnob(rot, probe){
+          function rotateKnob(rot, probe, fix=false){
+            if(!isFix){
                 document.getElementById('redwire').className.baseVal=probe; 
                 document.getElementById('circuit').className.baseVal=probe;
 
                 document.getElementById('knob').className.baseVal=rot; 
+            }
+            if(fix) isFix = true;
                 //console.log(rot);
                 //console.log(probe);
           }
